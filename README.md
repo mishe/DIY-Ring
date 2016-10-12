@@ -22,6 +22,9 @@
 ## 使用范例
  
 ### 多进度
+
+<img src="https://github.com/mishe/DIY-Ring/blob/master/1.png?raw=true">
+
  ```
  ring({
             parent:$('.asset-chart')[0],
@@ -39,6 +42,9 @@
         });
 ```
 ### 单进度
+
+<img src="https://github.com/mishe/DIY-Ring/blob/master/2.png?raw=true">
+
 ```
 ring({
             parent:$('.progress-ring')[0],
