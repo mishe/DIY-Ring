@@ -52,7 +52,7 @@ ring({
             width: 452,
             radius: 210,
             arc: 24,
-            perent: [perent],
+            perent: [50],
             color: ['#f6f6f6','#f30'],
             textColor: '#f30',
             textSize: '30px',
