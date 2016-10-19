@@ -83,7 +83,7 @@ module.exports = function drawRing(opts) {
         // fillText(x);
     }
 
-    if (!_opts.animated) return fill(perent);
+    if (!_opts.animated) return fill(100);
 
     // fill(x);
     !function animate() {
