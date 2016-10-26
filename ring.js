@@ -57,14 +57,14 @@ module.exports = function drawRing(opts) {
     }
 
     function fillArc(x) {
-        var start=parseInt(perent[0]);
+        var start=parseFloat(perent[0]);
         for(var i=1;i<perent.length;i++) {
             ctx.beginPath();
             ctx.lineWidth = arc;
             ctx.strokeStyle = color[i];
             ctx.arc(width / 2, width / 2, radius, (-90+start*3.6) * Math.PI / 180, (x*perent[i]/100*3.6 - 90+start*3.6) * Math.PI / 180);
             ctx.stroke();
-            start+=parseInt(perent[i]);
+            start+=parseFloat(perent[i]);
             // console.log(i,start)
         }
     }
